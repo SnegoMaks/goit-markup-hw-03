@@ -21,6 +21,12 @@
   /*footer*/
   --footer-text: #e7e9fc;
 }
+/*border-box-main*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -30,6 +36,17 @@ body {
   letter-spacing: 0.02em;
   color: var(--text-main);
 }
+/*reset standart style*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
 /*imposibl*/
 .link {
   text-decoration: none;
