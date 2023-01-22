@@ -91,6 +91,7 @@ ul {
 }
 .header-link {
   display: flex;
+  justify-content: center;
 }
 .header-navi-fist {
   margin-left: 76px;
@@ -123,6 +124,9 @@ ul {
 /*-------section-hero--------*/
 .hero {
   background-color: var(--bgr-main);
+  width: 1440px;
+  height: 600px;
+  padding: 188px 0;
 }
 .hero-text {
   font-weight: 700;
@@ -130,6 +134,8 @@ ul {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: var(--hero-text);
+  margin: 0 auto;
+  max-width: 498px;
 }
 .hero-button {
   background-color: var(--hero-button);
@@ -147,6 +153,11 @@ ul {
   background-color: var(--link);
 }
 /*-------section about-------*/
+.card-set-first {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
 .about-work {
   font-weight: 500;
   font-size: 20px;
@@ -231,6 +242,8 @@ ul {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+/*---------many buttons-----*/
+
 /*-------sectiom-many-ikon------*/
 .many-ikon-name {
   font-weight: 500;
