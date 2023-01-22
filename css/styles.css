@@ -53,6 +53,17 @@ ul {
   padding-left: 0;
   margin: 0;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  display: block;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
 .container {
   width: 1158px;
   padding: 0 15px;
@@ -62,15 +73,18 @@ ul {
 /*imposibl*/
 .link {
   text-decoration: none;
+  padding-bottom: 24px;
+  padding-top: 24px;
 }
 
-.li {
-  list-style: none;
-}
 /*header*/
-.header {
+.header-navi {
   display: flex;
   align-items: center;
+}
+.header {
+  width: 1440px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .logo-blue {
   color: var(--logo-first);
@@ -91,10 +105,12 @@ ul {
 }
 .header-link {
   display: flex;
-  justify-content: center;
-}
-.header-navi-fist {
+  align-items: center;
   margin-left: 76px;
+  gap: 40px;
+}
+.flex-container {
+  display: flex;
 }
 .navi-first > .link {
   font-weight: 500;
@@ -105,16 +121,17 @@ ul {
   color: var(--logo-first);
 }
 .header-navi-sect {
-  margin-left: 332px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 40px;
 }
 
 .navi-second > .link {
   color: var(--head-adres);
   line-height: 1.5;
 }
-.navdis {
-  margin-left: 40px;
-}
+
 .hov:hover,
 .hov:focus {
   color: var(--link);
@@ -127,6 +144,8 @@ ul {
   width: 1440px;
   height: 600px;
   padding: 188px 0;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-text {
   font-weight: 700;
@@ -136,6 +155,7 @@ ul {
   color: var(--hero-text);
   margin: 0 auto;
   max-width: 498px;
+  margin-bottom: 48px;
 }
 .hero-button {
   background-color: var(--hero-button);
@@ -147,16 +167,19 @@ ul {
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
+  padding: 12px 24px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero-button:hover,
 .hero-button:focus {
   background-color: var(--link);
 }
 /*-------section about-------*/
-.card-set-first {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 24px;
+
+.about-li {
+  width: 264px;
+  height: 104px;
 }
 .about-work {
   font-weight: 500;
@@ -202,6 +225,9 @@ ul {
 /*------------footer----------*/
 .footer {
   background-color: var(--bgr-main);
+  width: 1440px;
+  height: 310px;
+  padding: 100px;
 }
 .logo-white {
   font-weight: 800;
@@ -213,7 +239,10 @@ ul {
 }
 .footer-text {
   color: var(--footer-text);
+  max-width: 268px;
+  margin-top: 16px;
 }
+
 /*-------portfolio------*/
 /*---------section- btn--------*/
 .btn {
