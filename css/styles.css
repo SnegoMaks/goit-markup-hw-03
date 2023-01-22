@@ -239,11 +239,19 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  text-align: center;
   color: var(--text-accent);
+  margin-top: 32px;
 }
 .comand-position {
   line-height: 1.5;
+  text-align: center;
   color: var(--text-main);
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+.card-item {
+  border: 1px solid #e7e9fc;
 }
 /*------------footer----------*/
 .footer {
@@ -321,9 +329,12 @@ button {
   line-height: 1.2;
   color: var(--text-accent);
   margin-top: 32px;
+  margin-left: 16px;
 }
 .many-ikon-text {
   line-height: 1.5;
   color: var(--text-main);
   margin-top: 8px;
+  margin-bottom: 32px;
+  margin-left: 16px;
 }
