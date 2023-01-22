@@ -85,6 +85,8 @@ button {
 .header {
   width: 1440px;
   border-bottom: 1px solid #e7e9fc;
+  margin-right: auto;
+  margin-left: auto;
 }
 .logo-blue {
   color: var(--logo-first);
@@ -181,6 +183,10 @@ button {
   flex-wrap: wrap;
   gap: 24px;
 }
+.about-co {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 .about-li {
   width: 264px;
   height: 104px;
@@ -191,14 +197,15 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-accent);
-  margin-top: 120px;
 }
 .about-text {
   line-height: 1.5;
   color: var(--text-main);
 }
 /*------- section wawd------*/
-
+.wawd {
+  padding-bottom: 120px;
+}
 .wawd-title {
   font-weight: 700;
   font-size: 36px;
@@ -207,8 +214,7 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: var(--text-accent-h2);
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 /*--------section our team---------*/
 .comand {
@@ -216,6 +222,8 @@ button {
   width: 1440px;
   height: 732px;
   margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .comand-title {
   font-weight: 700;
