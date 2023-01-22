@@ -243,6 +243,12 @@ ul {
   overflow: hidden;
 }
 /*---------many buttons-----*/
+.card-set-sec {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 24px;
+}
 
 /*-------sectiom-many-ikon------*/
 .many-ikon-name {
