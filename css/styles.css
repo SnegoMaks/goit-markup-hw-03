@@ -281,7 +281,6 @@ button {
   cursor: pointer;
   padding: 12px 24px;
 }
-
 .btn:hover {
   color: var(--hero-button-text);
   background-color: var(--link);
@@ -321,8 +320,10 @@ button {
   font-size: 20px;
   line-height: 1.2;
   color: var(--text-accent);
+  margin-top: 32px;
 }
 .many-ikon-text {
   line-height: 1.5;
   color: var(--text-main);
+  margin-top: 8px;
 }
