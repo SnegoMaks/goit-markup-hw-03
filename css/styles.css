@@ -46,6 +46,11 @@ h6,
 p {
   margin: 0;
 }
+.container {
+  width: 1158;
+  padding: 0 15px;
+  margin: 0 auto;
+}
 
 /*imposibl*/
 .link {
