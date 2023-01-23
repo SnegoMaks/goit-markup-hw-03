@@ -30,10 +30,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
-
   letter-spacing: 0.02em;
   color: var(--text-main);
 }
@@ -83,10 +80,7 @@ button {
   align-items: center;
 }
 .header {
-  width: 1440px;
   border-bottom: 1px solid #e7e9fc;
-  margin-right: auto;
-  margin-left: auto;
 }
 .logo-blue {
   color: var(--logo-first);
@@ -113,6 +107,7 @@ button {
 }
 .flex-container {
   display: flex;
+  align-items: center;
 }
 .navi-first > .link {
   font-weight: 500;
@@ -143,9 +138,8 @@ button {
 /*-------section-hero--------*/
 .hero {
   background-color: var(--bgr-main);
-  width: 1440px;
-  height: 600px;
   padding: 188px 0;
+  text-align: center;
   margin-left: auto;
   margin-right: auto;
 }
@@ -164,12 +158,12 @@ button {
   color: var(--hero-button-text);
   font-family: "Roboto";
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   font-style: normal;
   font-weight: 500;
   letter-spacing: 0.04em;
   cursor: pointer;
-  padding: 12px 24px;
+  padding: 16px 32px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -200,6 +194,7 @@ button {
 }
 .about-text {
   line-height: 1.5;
+  margin-top: 8px;
   color: var(--text-main);
 }
 /*------- section wawd------*/
@@ -219,11 +214,8 @@ button {
 /*--------section our team---------*/
 .comand {
   background-color: var(--bgr-sec);
-  width: 1440px;
+
   height: 732px;
-  margin-top: 120px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .comand-title {
   font-weight: 700;
@@ -232,8 +224,14 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: var(--text-accent-h2);
-  padding-top: 120px;
-  padding-bottom: 72px;
+  padding-top: 72px;
+  padding-bottom: 120px;
+}
+.comand-li {
+  background: #ffffff;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
 }
 .comand-name {
   font-weight: 500;
@@ -241,26 +239,22 @@ button {
   line-height: 1.2;
   text-align: center;
   color: var(--text-accent);
-  margin-top: 32px;
 }
 .comand-position {
   line-height: 1.5;
   text-align: center;
   color: var(--text-main);
   margin-top: 8px;
-  margin-bottom: 32px;
 }
 .card-item {
   border: 1px solid #e7e9fc;
+  padding: 32px 0;
 }
 /*------------footer----------*/
 .footer {
   background-color: var(--bgr-main);
-  width: 1440px;
-  height: 310px;
+
   padding: 100px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .logo-white {
   font-weight: 800;
@@ -328,13 +322,11 @@ button {
   font-size: 20px;
   line-height: 1.2;
   color: var(--text-accent);
-  margin-top: 32px;
   margin-left: 16px;
 }
 .many-ikon-text {
   line-height: 1.5;
   color: var(--text-main);
   margin-top: 8px;
-  margin-bottom: 32px;
   margin-left: 16px;
 }
