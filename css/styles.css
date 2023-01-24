@@ -70,8 +70,6 @@ button {
 /*imposibl*/
 .link {
   text-decoration: none;
-  padding-bottom: 24px;
-  padding-top: 24px;
 }
 
 /*header*/
@@ -113,6 +111,8 @@ button {
   font-weight: 500;
   line-height: 1.5;
   color: var(--head-text);
+  padding: 24px 0;
+  display: block;
 }
 .link.current {
   color: var(--logo-first);
@@ -214,8 +214,7 @@ button {
 /*--------section our team---------*/
 .comand {
   background-color: var(--bgr-sec);
-
-  height: 732px;
+  padding: 120px 0;
 }
 .comand-title {
   font-weight: 700;
@@ -224,8 +223,7 @@ button {
   text-align: center;
   text-transform: capitalize;
   color: var(--text-accent-h2);
-  padding-top: 72px;
-  padding-bottom: 120px;
+  margin-bottom: 72px;
 }
 .comand-li {
   background: #ffffff;
@@ -248,13 +246,14 @@ button {
 }
 .card-item {
   border: 1px solid #e7e9fc;
-  padding: 32px 0;
+  padding: 32px 16px;
+  border-top: none;
 }
 /*------------footer----------*/
 .footer {
   background-color: var(--bgr-main);
-
-  padding: 100px;
+  line-height: 1.5;
+  padding: 100px 0;
 }
 .logo-white {
   font-weight: 800;
@@ -272,6 +271,10 @@ button {
 
 /*-------portfolio------*/
 /*---------section- btn--------*/
+.many-buttons {
+  padding-top: 96px;
+  padding-bottom: 120px;
+}
 .btn {
   font-family: "Roboto";
   font-size: 16px;
@@ -291,7 +294,6 @@ button {
   display: flex;
   justify-content: center;
   gap: 24px;
-  margin-top: 96px;
 }
 .not-text {
   position: absolute;
@@ -313,7 +315,6 @@ button {
   row-gap: 48px;
   column-gap: 24px;
   margin-top: 72px;
-  margin-bottom: 100px;
 }
 
 /*-------sectiom-many-ikon------*/
@@ -322,11 +323,9 @@ button {
   font-size: 20px;
   line-height: 1.2;
   color: var(--text-accent);
-  margin-left: 16px;
 }
 .many-ikon-text {
   line-height: 1.5;
   color: var(--text-main);
   margin-top: 8px;
-  margin-left: 16px;
 }
