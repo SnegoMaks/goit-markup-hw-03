@@ -243,7 +243,7 @@ button {
 .social-btm {
   display: flex;
   justify-content: center;
-  gap: 36px;
+  gap: 16px;
 }
 .social-li {
   display: flex;
@@ -251,7 +251,7 @@ button {
   justify-content: center;
   width: 40px;
   height: 40px;
-  background-color: var(--social-btn-comand);
+  background-color: var(--social-btn-comand1);
   border-radius: 50px;
   fill: var(--social-btn-logo);
 }
