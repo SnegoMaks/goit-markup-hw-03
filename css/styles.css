@@ -255,7 +255,10 @@ button {
   border-radius: 50px;
   fill: var(--social-btn-logo);
 }
-
+.social-li:hover,
+.social-li:hover {
+  background-color: var(--social-btn-comand2);
+}
 .comand-li {
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
