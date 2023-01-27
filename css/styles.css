@@ -18,6 +18,9 @@
   --bgr-many-button: #f4f4fd;
   --text-many-button: #4d5ae5;
   --link: #404bbf;
+  --social-btn-comand1: #4d5ae5;
+  --social-btn-comand2: #404bbf;
+  --social-btn-logo: #f4f4fd;
   /*footer*/
   --footer-text: #e7e9fc;
   /*size distaition*/
@@ -237,6 +240,22 @@ button {
   color: var(--text-accent-h2);
   margin-bottom: 72px;
 }
+.social-btm {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+}
+.social-li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: var(--social-btn-comand);
+  border-radius: 50px;
+  fill: var(--social-btn-logo);
+}
+
 .comand-li {
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -255,6 +274,7 @@ button {
   text-align: center;
   color: var(--text-main);
   margin-top: 8px;
+  margin-bottom: 8px;
 }
 .card-item {
   border: 1px solid #e7e9fc;
