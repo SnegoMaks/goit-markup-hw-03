@@ -23,6 +23,7 @@
   --social-btn-logo: #f4f4fd;
   /*customers*/
   --customers-logo: #8e8f99;
+  --customers-logo2: #404bbf;
   /*footer*/
   --footer-text: #e7e9fc;
   /*size distaition*/
@@ -151,7 +152,7 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  min-width: 1440px;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 
@@ -288,7 +289,13 @@ button {
 }
 /*--------Cotumers-------------*/
 .customers {
-  padding: 130px 0;
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+.customer-ul {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 .customers-title {
   font-weight: 700;
@@ -300,17 +307,23 @@ button {
   color: var(--text-accent-h2);
   margin-bottom: 72px;
 }
-.customers-logo {
+.customer-logo {
+  color: var(--customers-logo);
   display: flex;
   align-items: center;
   justify-content: center;
   width: 168px;
   height: 88px;
-  border: 1px solid #8e8f99;
+  border: 1px solid var(--customers-logo);
   border-radius: 4px;
 }
 .customer-icon {
-  fill: var(--customers-logo);
+  fill: currentColor;
+}
+.customer-logo:hover,
+.customer-logo:focus {
+  color: var(--customers-logo2);
+  border: 1px solid var(--customers-logo2);
 }
 
 /*------------footer----------*/
@@ -332,7 +345,9 @@ button {
   max-width: 268px;
   margin-top: 16px;
 }
-
+.footer-container {
+  display: flex;
+}
 /*-------portfolio------*/
 /*---------section- btn--------*/
 .many-buttons {
