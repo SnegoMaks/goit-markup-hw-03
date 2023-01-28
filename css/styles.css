@@ -284,6 +284,21 @@ button {
   padding: 32px 16px;
   border-top: none;
 }
+/*--------Cotumers-------------*/
+.customers {
+  padding: 130px 0;
+}
+.customers-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--text-accent-h2);
+  margin-bottom: 72px;
+}
+
 /*------------footer----------*/
 .footer {
   background-color: var(--bgr-main);
