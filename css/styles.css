@@ -242,8 +242,7 @@ button {
 }
 .social-btm {
   display: flex;
-  justify-content: center;
-  gap: 24px;
+  justify-content: space-between;
 }
 .social-li {
   display: flex;
@@ -282,7 +281,7 @@ button {
 }
 .card-item {
   border: 1px solid #e7e9fc;
-  padding: 32px 8px;
+  padding: 32px 16px;
   border-top: none;
 }
 /*------------footer----------*/
