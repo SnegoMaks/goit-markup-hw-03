@@ -21,6 +21,8 @@
   --social-btn-comand1: #4d5ae5;
   --social-btn-comand2: #404bbf;
   --social-btn-logo: #f4f4fd;
+  /*customers*/
+  --customers-logo: #8e8f99;
   /*footer*/
   --footer-text: #e7e9fc;
   /*size distaition*/
@@ -297,6 +299,18 @@ button {
   text-transform: capitalize;
   color: var(--text-accent-h2);
   margin-bottom: 72px;
+}
+.customers-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 168px;
+  height: 88px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+}
+.customer-icon {
+  fill: var(--customers-logo);
 }
 
 /*------------footer----------*/
