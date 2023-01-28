@@ -231,6 +231,7 @@ button {
 /*------- section wawd------*/
 .wawd {
   padding-bottom: 120px;
+  padding-top: 120px;
 }
 .wawd-title {
   font-weight: 700;
@@ -407,7 +408,8 @@ button {
   cursor: pointer;
   padding: 12px 24px;
 }
-.btn:hover {
+.btn:hover,
+.btn:focus {
   color: var(--hero-button-text);
   background-color: var(--link);
 }
