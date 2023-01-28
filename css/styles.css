@@ -21,11 +21,15 @@
   --social-btn-comand1: #4d5ae5;
   --social-btn-comand2: #404bbf;
   --social-btn-logo: #f4f4fd;
+  /*about*/
+  --about-svg: #f4f4fd;
   /*customers*/
   --customers-logo: #8e8f99;
   --customers-logo2: #404bbf;
   /*footer*/
   --footer-text: #e7e9fc;
+  --footer-soc-text: #ffffff;
+  --footer-logo-hover: #31d0aa;
   /*size distaition*/
 }
 /*border-box-main*/
@@ -203,12 +207,21 @@ button {
   width: 264px;
   height: 104px;
 }
+.about-svg {
+  display: flex;
+  width: 264px;
+  height: 112px;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--about-svg);
+}
 .about-work {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--text-accent);
+  padding-top: 8px;
 }
 .about-text {
   line-height: 1.5;
@@ -347,6 +360,35 @@ button {
 }
 .footer-container {
   display: flex;
+}
+.footer-soc {
+  margin-left: 120px;
+}
+.footer-soc-text {
+  color: var(--footer-soc-text);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  padding-bottom: 16px;
+}
+.footer-soc-li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50px;
+  fill: var(--social-btn-logo);
+}
+.footer-soc-li:hover,
+.footer-soc-li:focus {
+  background-color: var(--footer-logo-hover);
+}
+.footer-soc-btn {
+  display: flex;
+  gap: 16px;
 }
 /*-------portfolio------*/
 /*---------section- btn--------*/
